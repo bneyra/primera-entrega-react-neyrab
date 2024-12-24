@@ -1,0 +1,57 @@
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+}
+
+.logo {
+  margin: 1rem;
+  padding-left: 1rem;
+  width: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 2rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav img {
+  position: relative;
+  width: 3rem;    /* Ancho deseado */
+  margin: 1.6rem;   /* Ajusta el margen con una unidad */
+  display: inline-block;
+  text-align: center;
+}
+
+
+nav span {
+  position: absolute;
+  font-size: 1.6rem;
+  top: 5.8rem;
+  right: 0.5rem;
+  background-color: rgb(255, 249, 249);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
